@@ -142,7 +142,7 @@ def Add_Binaire2(X) :
     for i in range(2) :
         if i == 1 :
             X = [0, 0]
-        Layer_1(X, OUT)
+        OUT = Layer_1(X, OUT)
         result[1-i] = Layer_2(OUT)
 
     return result
