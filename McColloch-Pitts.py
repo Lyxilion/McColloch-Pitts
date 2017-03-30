@@ -8,7 +8,7 @@ def f(X,H,t):
     """
         fontion de tranfert de McColloch-Pitts
     :param X: list : Connexxion ativatrice
-    :param H: list : Connecion inhibitrice
+    :param H: list : ConnAecion inhibitrice
     :param t: int :seuil
     :return: Bool
     """
@@ -23,11 +23,16 @@ def f(X,H,t):
     else :
         return 0
 
+#dfdfdfgb
+
 
 """
-Modelisation de la fonction répondant a cette table de vérité :
+"""
+
+"""
+Modelisation de la fonction répondant a cette table de vérite :
  _________________
-| Entré | Sorties |
+| Entre | Sorties |
 |_________________|
 |  001  |   1     |
 |  011  |   1     |
